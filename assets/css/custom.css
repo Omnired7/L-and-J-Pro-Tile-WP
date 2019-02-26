@@ -1,0 +1,141 @@
+#main .custom_parallax>div{
+    background: #505050;;
+    opacity: .56;
+    height: 54vh;
+}
+#main .custom_parallax a{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 54vh;
+}
+#main .custom_parallax a h1{
+    width: 100%;
+    font-family: adobe-hebrew, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#FFF;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+#main .custom_parallax a button{
+    display: block;
+    background: transparent;
+    font-size: 1.5em;
+    padding: .25em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border: #A5D7F5 solid .12em;
+    color: #FFF;
+}
+#main .custom_parallax a button:hover{
+    border: #FFF solid .12em;
+    color: #A5D7F5;
+}
+#main .gallery-links {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+#main .gallery-links a{
+    text-decoration: none;
+    color: #FFF;
+}
+#main .gallery-links .link{
+    background-size: cover !important;
+    border: .5em solid rgba(255,255,255,.5);
+    margin: 2vw;
+}
+#main .gallery-links .link:hover{
+    border: .5em solid rgba(163,216,245,.5);
+}
+#main .gallery-links .link div{
+    width: 84vw;
+    height: 30vw;
+    background: #505050;
+    opacity: .36;
+}
+#main .gallery-links .link p{
+    display: flex;
+    position: absolute;
+    width: 84vw;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vw;
+    line-height: 8vw;
+    font-family: adobe-hebrew, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -30vw;
+    margin-bottom: 0;
+}
+#main .testimonials{
+    background: #2F5F7D;
+}
+#main .testimonials .bx-viewport, .bx-wrapper{
+    background: transparent;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    border:unset;
+    margin-bottom: unset;
+}
+#main .testimonials .slide{
+    height: 20em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+#main .testimonials .slide p{
+    font-size: 1.5em;
+    text-align: center;
+    color: #FFF;
+    padding: 1em;
+}
+#main .testimonials .slide h5{
+    width: 50%;
+    text-align: right;
+    color: #ECE4AE;
+}
+/* SM */
+@media only screen and (min-width : 768px) {
+    #main .custom_parallax a h1{
+        font-size: 6em;
+    }
+    #main .custom_parallax a button{
+        width: 15vw;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #main .custom_parallax>div{
+        opacity: .36;
+    }
+    #main .gallery-links .link div{
+        width: 26vw;
+    }
+    #main .gallery-links .link p{
+        width: 26vw;
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    #main .testimonials .slide{
+        height: 20vh;
+    }
+    #main .testimonials .slide p{
+        padding: unset;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
