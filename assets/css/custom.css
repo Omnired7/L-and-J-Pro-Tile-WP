@@ -90,7 +90,6 @@
     margin-bottom: unset;
 }
 #main .testimonials .slide{
-    height: 20em;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -101,6 +100,7 @@
     text-align: center;
     color: #FFF;
     padding: 1em;
+    margin-top: 7vw;
 }
 #main .testimonials .slide h5{
     width: 50%;
@@ -110,10 +110,11 @@
 /* SM */
 @media only screen and (min-width : 768px) {
     #main .custom_parallax a h1{
-        font-size: 6em;
+        font-size: 4em;
+        color: #a3d8f5;
     }
     #main .custom_parallax a button{
-        width: 15vw;
+        width: auto;
     }
 }
 /* Medium Devices, Desktops */
@@ -128,9 +129,6 @@
         width: 26vw;
         font-size: 3vw;
         line-height: 5vw;
-    }
-    #main .testimonials .slide{
-        height: 20vh;
     }
     #main .testimonials .slide p{
         padding: unset;

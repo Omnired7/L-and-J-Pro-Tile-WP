@@ -275,7 +275,7 @@ get_header(); ?>
 									var content = "<h1>".concat(response.title, "</h1>\
 													<div class='img-cont'>", response.image, "</div>\
 													<div class='content'>", response.content, "</div>\
-													<a href='<?php echo home_url('/contact?clickTitle='); ?>".concat(response.title, "&page=<?php echo getSlug() ; ?>'>\
+													<a href='<?php echo home_url('/contact?clickTitle='); ?>", response.title, "&page=<?php echo getSlug() ; ?>'>\
 														<span>ASK US ABOUT THIS DESIGN >></span>\
 														<button>CONTACT</button>\
 													</a>");
